@@ -1,0 +1,21 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and customize for your environment
+
+# Basic Configuration
+aws_region      = "us-west-2"
+environment     = "production"
+project_name    = "my-application"
+vpc_cidr_block  = "10.0.0.0/16"
+
+# Common Tags
+common_tags = {
+  Owner           = "DevOps Team"
+  CostCenter      = "Engineering" 
+  Project         = "MyApplication"
+  Environment     = "Production"
+  Terraform       = "true"
+  BusinessUnit    = "Technology"
+  Compliance      = "SOC2"
+  BackupSchedule  = "daily"
+  MonitoringLevel = "high"
+}
