@@ -254,7 +254,7 @@ This module is licensed under the MIT License. See [LICENSE](LICENSE) for full d
 
 ## Authors
 
-Module managed by [Your Name](https://github.com/your-username).
+Module managed by [Ranjan Lamsal](https://github.com/ranjanlamsal).
 
 ## Support
 
